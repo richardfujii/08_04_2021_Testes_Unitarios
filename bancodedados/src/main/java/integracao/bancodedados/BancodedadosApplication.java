@@ -1,13 +1,13 @@
-package com.bancodedados.testes;
+package integracao.bancodedados;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TestesApplication {
+public class BancodedadosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TestesApplication.class, args);
+		SpringApplication.run(BancodedadosApplication.class, args);
 	}
 
 }
